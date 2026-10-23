@@ -1,10 +1,16 @@
-# Guild Golem's Discord bot
+# Guild Golem Discord bot
 
-The bot puts your guild's raid nights from [Guild Golem](https://guildgolem.com) into your Discord server. Raiders
-sign up with buttons, officers post the groups, and people who haven't answered get a reminder.
+The Discord bot for [Guild Golem](https://guildgolem.com), a guild management site for WoW Forever. It puts your
+guild's raid nights into your Discord server. Raiders sign up with buttons, officers post the groups, and people who
+haven't answered get a reminder.
 
 The bot's code is part of the Guild Golem website and isn't public. This repo explains what the bot does, what it
 asks Discord for, and where to report problems.
+
+## Status
+
+Live. Any guild on [guildgolem.com](https://guildgolem.com) can add it to their server (below). It's updated along
+with the site.
 
 ## Adding it to your server
 
@@ -83,4 +89,5 @@ What the site and the bot keep is on the [privacy page](https://guildgolem.com/a
 
 ## Problems and ideas
 
-Open an [issue](../../issues) here, or use Feedback on any page of [guildgolem.com](https://guildgolem.com).
+Open an [issue](../../issues) here and pick "Something's wrong" or "An idea", or use Feedback on any page of
+[guildgolem.com](https://guildgolem.com).
