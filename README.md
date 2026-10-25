@@ -91,3 +91,8 @@ What the site and the bot keep is on the [privacy page](https://guildgolem.com/a
 
 Open an [issue](../../issues) here and pick "Something's wrong" or "An idea", or use Feedback on any page of
 [guildgolem.com](https://guildgolem.com).
+
+## License
+
+These docs are copyright 2026 Guild Golem (guildgolem.com) and shared under [CC BY 4.0](LICENSE). You may copy and change
+them, in your own server or anywhere else, as long as you credit Guild Golem. The bot's code isn't public.
