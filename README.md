@@ -34,7 +34,7 @@ Officers are the guild leader and the officers the leader lets post to Discord.
 | `/recruit` | Officers | Posts in the channel when someone applies through the guild finder, or stops |
 | `/patches` | Officers | Posts new game builds and Guild Golem's data updates in the channel, or stops |
 | `/next` | Everyone | Shows your next raid nights, with buttons to answer them |
-| `/away` | Everyone | Marks you away for some days, so your raid nights answer Can't come |
+| `/away` | Everyone | Marks you away, or leaving early, for some days, so your raid nights answer for you |
 | `/talent` | Everyone | Shows a talent: what it does, its ranks and a link |
 | `/spell` | Everyone | Shows a class spell at its highest rank, with its cost and cooldown |
 | `/build` | Everyone | Shows a talent or Legacy build from its export string |
@@ -46,7 +46,8 @@ Using the bot needs a Guild Golem account. Anyone without one is sent a sign-in 
 
 These only happen in channels an officer chose with the commands above:
 
-- Raid night sign-ups, a few days before each night (`/nights`).
+- Raid night sign-ups, a few days before each night (`/nights`). Raiders answer with its buttons, and Leaving early
+  marks that they'll leave before the end.
 - A live post when someone in the guild is logging a raid live, edited when the raid ends (`/logs`).
 - A summary of each shared combat log (`/logs`).
 - New applications from the guild finder (`/recruit`).
@@ -58,11 +59,11 @@ Each player picks their own DMs in Account settings on guildgolem.com.
 
 | DM | Starts |
 |---|---|
-| Reminders for nights you haven't answered | Off |
-| Updates about your raid nights | Off |
-| Loot you're handed | Off |
-| Your guild's news, an application's answer, a leader's warning before a handover | On |
-| Raid day: your spot, assignments and loot a couple of hours before a night you're placed on | On |
+| Raid reminders, before a night you haven't answered | Off |
+| Night changes, when a night you're coming to is cancelled, moved, back on or deleted | Off |
+| Loot, when an item is recorded for you | Off |
+| Your guilds: an application's answer, and a leader's warning a week before a handover | On |
+| Raid day: your group or the bench, your assignments, your reserves and what you're next in line for. It comes when an officer sends the groups, and otherwise two hours before a night you're placed on | On |
 
 If Discord refuses a DM (closed DMs, or you left every shared server), the site tells you why they stopped.
 
